@@ -31,7 +31,10 @@ main {
   text-align: left;
   top: 50%;
 }
-
+.form-control{
+  border-radius: 0px;
+  -webkit-appearance: none;
+}
 .main-logo {
   width: 200px;
   height: 50px;
