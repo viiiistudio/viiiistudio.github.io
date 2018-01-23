@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   height: 100%;
 }
 
@@ -18,7 +17,21 @@ body {
   background-color: #f5f5f5;
 }
 
-#logo{
-  width:300px;
-  display:none;
+#logo {
+  width: 300px;
+  display: none;
+}
+
+main {
+  max-width: 800px !important;
+  text-align: left;
+}
+
+.vis-text {
+  font-size: 1rem;
+  font-weight: 900;
+}
+.vis-value {
+  font-size: 1rem;
+  font-weight: 100;
 }
