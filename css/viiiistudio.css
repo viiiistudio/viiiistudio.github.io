@@ -21,7 +21,7 @@ body {
 }
 
 #logo {
-  margin-top: -20px;
+  margin-top: -10px;
   width: 200px;
   display: none;
 }
@@ -63,10 +63,10 @@ main {
 
 .vis-text {
   font-size: 1rem;
-  font-weight: 1200;
+  font-weight: 900;
 }
 
 .vis-value {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 100;
 }
