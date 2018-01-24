@@ -21,7 +21,7 @@ body {
 }
 
 #logo {
-  margin-top: -100px;
+  margin-top: -20px;
   width: 200px;
   display: none;
 }
@@ -31,7 +31,7 @@ p,h1 {
 }
 
 main {
-  max-width: 960px !important;
+  max-width: 720px !important;
   text-align: left;
   top: 50%;
 }
@@ -62,7 +62,7 @@ main {
 }
 
 .vis-text {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 1200;
 }
 
