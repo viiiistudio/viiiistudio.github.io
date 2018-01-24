@@ -34,10 +34,17 @@ p,h1 {
     font-size: 1.5rem;
 }
 
+a{
+  color:black;
+}
+
+a:hover{
+  color:grey;
+}
+
 main {
   max-width: 720px !important;
   text-align: left;
-  top: 50%;
 }
 .form-control{
   border-radius: 0px;
@@ -74,4 +81,10 @@ main {
 .vis-value {
   font-size: 1rem;
   font-weight: 100;
+}
+.spacer-lg{
+  height:30px;
+}
+.spacer-md{
+  height:10px;
 }
