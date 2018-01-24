@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,6 +17,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <script src="language/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+
   <script src="vis.js"></script>
 
   <!-- Custom styles for this template -->
@@ -30,29 +33,42 @@
       <i class="fa fa-angle-left" aria-hidden="true"></i>
     </a>
     <div class="spacer-lg"></div>
-    <h1 class="">关注联系我们</h1>
+    <h1 lang="ch" class="">关注联系我们</h1>
     <div class="spacer-lg"></div>
-    <p class="vis-text">我们的办公时间是周一至周五早上九点到晚上六点，欢迎致电，发送电子邮件或关注微信公众号</p>
+    <p lang="ch" class="vis-text">我们的办公时间是周一至周五早上九点到晚上六点，欢迎致电，发送电子邮件或关注微信公众号</p>
     <div class="spacer-md"></div>
-    <p class="vis-text">邮箱：</p>
+    <p lang="ch" class="vis-text">邮箱：</p>
     <div class="spacer-md"></div>
     <p class="vis-value">viiiistudio@126.com</p>
     <div class="spacer-md"></div>
-    <p class="vis-text">电话：</p>
+    <p lang="ch" class="vis-text">电话：</p>
     <div class="spacer-md"></div>
     <p class="vis-value">+86 10</p>
     <div class="spacer-md"></div>
-    <p class="vis-text">微信公众号：</p>
+    <p lang="ch" class="vis-text">微信公众号：</p>
     <div class="spacer-md"></div>
     <img width="100" src="img/QR.jpg" alt="">
     <div class="spacer-lg"></div>
-    <p class="vis-value">Copyrights © 2018 VIIIISTUDIO, All Rights Reserved. <a href="" data-toggle="modal" data-target="#legal" class="vis-text">法律声明</a></p>
+    <p class="vis-value">Copyrights © 2018 VIIIISTUDIO, All Rights Reserved. <a lang="ch" href="" data-toggle="modal" data-target="#legal" class="vis-text">法律声明</a></p>
+
+    <a href="#lang-ch" onclick="window.lang.change('ch'); return false;">中文</a> | <a href="#lang-en" onclick="window.lang.change('en'); return false;">English</a>
   </main>
 
   <footer class="footer">
     <div class="container">
+
     </div>
   </footer>
+  <script type="text/javascript">
+    // Create language switcher instance
+    var lang = new Lang();
+
+    lang.dynamic('en', 'language/langpack/en.json');
+
+    lang.init({
+      defaultLang: 'ch'
+    });
+  </script>
 </body>
 
 <!-- 法律声明 -->

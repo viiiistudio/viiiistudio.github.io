@@ -1,0 +1,23 @@
+{
+  "name": "viiiistudio.github.io",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "vis.js",
+  "scripts": {
+    "dev":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://viiiistudio:viiiistudio2018@github.com/viiiistudio/viiiistudio.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viiiistudio/viiiistudio.github.io/issues"
+  },
+  "homepage": "https://github.com/viiiistudio/viiiistudio.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
