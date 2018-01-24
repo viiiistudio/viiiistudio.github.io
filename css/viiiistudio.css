@@ -26,30 +26,37 @@ body {
   display: none;
 }
 
-p,h1 {
-    font-family: PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,STHeitiSC-Light,simsun,\\5B8B\4F53,WenQuanYi Zen Hei,WenQuanYi Micro Hei,'sans-serif';
+p, h1 {
+  font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, \\5B8B\4F53, WenQuanYi Zen Hei, WenQuanYi Micro Hei, 'sans-serif';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0rem;
 }
 
 .h1, h1 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-a{
-  color:black;
+a {
+  color: black;
 }
 
-a:hover{
-  color:grey;
+a:hover {
+  color: grey;
 }
 
 main {
   max-width: 720px !important;
   text-align: left;
 }
-.form-control{
+
+.form-control {
   border-radius: 0px;
   -webkit-appearance: none;
 }
+
 .main-logo {
   width: 200px;
   height: 40px;
@@ -82,9 +89,11 @@ main {
   font-size: 1rem;
   font-weight: 100;
 }
-.spacer-lg{
-  height:30px;
+
+.spacer-lg {
+  height: 30px;
 }
-.spacer-md{
-  height:10px;
+
+.spacer-md {
+  height: 10px;
 }
