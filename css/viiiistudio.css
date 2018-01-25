@@ -97,3 +97,6 @@ main {
 .spacer-md {
   height: 10px;
 }
+.lang-switcher{
+  float:right;
+}
